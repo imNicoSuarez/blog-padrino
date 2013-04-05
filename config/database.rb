@@ -20,7 +20,7 @@ ActiveRecord::Base.configurations[:development] = {
   :database  => 'blog_development',
   :pool      => 5,
   :username  => 'root',
-  :password  => '',
+  :password  => 'mysql123',
   :host      => 'localhost',
   :socket    => '/tmp/mysql.sock'
 
@@ -33,7 +33,7 @@ ActiveRecord::Base.configurations[:production] = {
   :database  => 'blog_production',
   :pool      => 5,
   :username  => 'root',
-  :password  => '',
+  :password  => 'mysql123',
   :host      => 'localhost',
   :socket    => '/tmp/mysql.sock'
 
@@ -46,7 +46,7 @@ ActiveRecord::Base.configurations[:test] = {
   :database  => 'blog_test',
   :pool      => 5,
   :username  => 'root',
-  :password  => '',
+  :password  => 'mysql123',
   :host      => 'localhost',
   :socket    => '/tmp/mysql.sock'
 

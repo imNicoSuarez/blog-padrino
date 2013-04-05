@@ -59,5 +59,10 @@ module Blog
     #     render 'errors/505'
     #   end
     #
+    get '/' do
+
+     haml :home
+    end
+
   end
 end
