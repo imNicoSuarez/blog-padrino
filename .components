@@ -1,8 +1,9 @@
 --- 
 :test: rspec
-:stylesheet: sass
 :renderer: haml
+:admin_renderer: haml
 :namespace: Blog
-:orm: activerecord
 :mock: none
+:stylesheet: sass
+:orm: activerecord
 :script: jquery
