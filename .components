@@ -1,0 +1,8 @@
+--- 
+:test: rspec
+:stylesheet: sass
+:renderer: haml
+:namespace: Blog
+:orm: activerecord
+:mock: none
+:script: jquery
