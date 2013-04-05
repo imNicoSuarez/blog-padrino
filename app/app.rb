@@ -60,8 +60,8 @@ module Blog
     #   end
     #
     get '/' do
-
-     haml :home
+      @posts = Post.all
+      haml :home
     end
 
   end
