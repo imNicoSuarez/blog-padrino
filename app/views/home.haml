@@ -1,0 +1,15 @@
+.container
+  .row
+    - @posts.each do |post|
+      .span10.offset1
+        .post
+          .title
+            %h2
+              = post.title
+              %i.icon-bookmark
+          .body
+            =  simple_format(post.body).html_safe
+          .details
+            %small
+              .author Posted by #{post.account.name} #{post.account.surname} - #{time_ago_in_words(post.created_at || Time.now) + ' ago'}
+        .line
