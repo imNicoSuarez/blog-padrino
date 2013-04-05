@@ -1,0 +1,16 @@
+!!! 5
+%html{ :lang => 'en' }
+  %head
+    %title Padrino blog
+    = stylesheet_link_tag 'bootstrap','font-awesome' ,'application'
+    = javascript_include_tag 'jquery', 'application'
+    = yield_content :include
+  %body
+    %header
+      %h1
+        Padrino Blog
+        %i.icon-book
+
+
+    %sector
+      = yield
